@@ -10,28 +10,28 @@ The project emphasizes understanding the model's behavior, fine-tuning prompts, 
 
 
 1. Objective:
-The goal of the project is to develop a generative AI model for dialogue summarization.
+The goal of my project is to develop a generative AI model for dialogue summarization.
 
 2. Data Collection:
-You gather a dataset of conversations between people for dialogue summarization.
+I gather a dataset of conversations between people for dialogue summarization.
 
 3. Model Selection:
-You choose the FLAN-T5 model, a powerful and versatile language model capable of handling various tasks.
+I choose the FLAN-T5 model, a powerful and versatile language model capable of handling various tasks.
 
 4. Tokenizer:
-You use the Hugging Face Transformers library to load the tokenizer, which converts raw text into numerical representations (embeddings).
+I use the Hugging Face Transformers library to load the tokenizer, which converts raw text into numerical representations (embeddings).
 
 5. Initial Summarization Attempts:
-Initially, you attempt to summarize conversations using zero-shot inference, but the model's performance is not satisfactory.
+Initially, I experiment with summarizing conversations using zero-shot inference, but the model's performance is not satisfactory.
 
 6. Prompt Engineering:
-You explore different prompts and instructions to improve the summarization. For example, using instructions like "summarize the following conversation" and "dialogue corn."
+I explore different prompts and instructions to improve the summarization. For example, using instructions like "summarize the following conversation" and "dialogue corn."
 
 7. One-Shot and Few-Shot Inference:
-You experiment with one-shot and few-shot inference, providing the model with additional examples, including the correct summaries, to help the model generalize better.
+I experiment with one-shot and few-shot inference, providing the model with additional examples, including the correct summaries, to help the model generalize better.
 
 8. Temperature and Sampling:
-In the final part, you explore different configuration parameters like temperature and sampling to control the creativity and variability of the generated responses.
+In the final part, I explore different configuration parameters like temperature and sampling to control the creativity and variability of the generated responses.
 
 9. Intuition Building:
-Throughout the project, you focus on building intuition about the model's behavior, finding the best prompts, and understanding the impact of different configurations on the summarization output.
+Throughout the project, I focus on building intuition about the model's behavior, finding the best prompts, and understanding the impact of different configurations on the summarization output.
