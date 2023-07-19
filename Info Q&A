@@ -140,3 +140,19 @@ Answer: Transfer learning allows the model to leverage knowledge from pre-traini
 
 50. Question: How would you further improve your dialogue summarization model if given more time and resources?
 Answer: I would explore fine-tuning the model on a larger and more diverse dataset and experiment with additional techniques, such as reinforcement learning, to enhance the model's performance.
+
+
+* In the context of generative AI dialogue summarization, zero-shot, one-shot, and few-shot inference 
+refer to different approaches used to guide the language model in generating summaries without additional fine-tuning. 
+Here's what each term means:
+
+1. Zero-Shot Inference:
+Zero-shot inference involves using the language model to generate summaries without providing any specific examples or instructions during the fine-tuning process. In this approach, the model is given a prompt or instruction but does not receive any examples of how the task should be performed. The model attempts to generate a summary based solely on its pre-trained knowledge and understanding of language patterns. However, zero-shot inference might not produce the most accurate or desired summaries since the model has not been explicitly trained for the summarization task.
+
+2. One-Shot Inference:
+One-shot inference involves providing the model with a single example of the summarization task, including the correct summary, during the fine-tuning process. The model is shown a dialogue along with its corresponding human-labeled summary as a single example. This helps the model to learn from the given example and understand the summarization task better. One-shot inference gives the model a head start by providing explicit instructions, but it may not capture the full diversity of summarization scenarios.
+
+3. Few-Shot Inference:
+Few-shot inference is an extension of one-shot inference, where the model is provided with a few examples of the summarization task, including the correct summaries, during fine-tuning. Instead of just one example, the model is given a small number of examples to learn from. This helps the model generalize better across various summarization scenarios and increases the chances of producing accurate summaries for different dialogues.
+
+In summary, zero-shot inference relies solely on the model's pre-trained knowledge, while one-shot and few-shot inference provide additional training examples to guide the model's behavior in generating summaries. The use of one-shot and few-shot inference can lead to better generalization and more accurate summaries compared to zero-shot inference.
