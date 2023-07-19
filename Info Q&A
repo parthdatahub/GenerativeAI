@@ -1,0 +1,142 @@
+Top 50 basic Q&A on Generative AI dialogue summarization project:
+
+1. Question: What is the objective of your project on generative AI dialogue summarization?
+Answer: The objective of my project is to develop a generative AI model capable of summarizing dialogues between individuals.
+
+2. Question: Which language model did you choose for this project, and why?
+Answer: I selected the FLAN-T5 model due to its versatility, as it can handle multiple tasks effectively.
+
+3. Question: How do you preprocess the dialogue data before inputting it into the model?
+Answer: I preprocess the data using tokenization, which converts raw text into numerical embeddings suitable for the model's input.
+
+4. Question: What were the initial results of using zero-shot inference for dialogue summarization?
+Answer: The initial results using zero-shot inference were not satisfactory, and the model struggled to produce desired summaries.
+
+5. Question: Explain the concept of prompt engineering in the context of this project.
+Answer: Prompt engineering involves experimenting with different instructions and prompts to guide the model to generate better summaries.
+
+6. Question: How did you improve the model's generalization through one-shot and few-shot inference?
+Answer: One-shot and few-shot inference provided additional training examples, including correct summaries, to help the model generalize better.
+
+7. Question: Can you elaborate on the configuration parameters like temperature and sampling that influence the model's output?
+Answer: Temperature controls the creativity of responses, with higher values generating more diverse outputs, while sampling helps choose responses probabilistically.
+
+8. Question: How do you fine-tune the parameters to achieve the desired level of creativity and variability in model-generated summaries?
+Answer: I experimentally adjust the temperature and sampling values to find the optimal combination that produces desired summary characteristics.
+
+9. Question: In your project, how do you assess the performance of the summarization model?
+Answer: I evaluate the model's performance by comparing the generated summaries with human-labeled summaries as a baseline.
+
+10. Question: What are the benefits of using the FLAN-T5 model compared to other language models for dialogue summarization?
+Answer: The FLAN-T5 model's versatility allows it to handle various tasks effectively and adapt well to summarization tasks.
+
+11. Question: How do you handle cases where the dialogue exceeds the model's context length during summarization?
+Answer: For sequences longer than the model's context length, I typically truncate or omit the exceeding portions while ensuring the essential content remains intact.
+
+12. Question: What are some potential challenges in dialogue summarization, and how did you address them in your project?
+Answer: Challenges include capturing nuanced context and generating concise yet informative summaries. I tackled these by experimenting with prompts and inference techniques.
+
+13. Question: Describe the role of tokenization in natural language processing tasks, especially in dialogue summarization.
+Answer: Tokenization converts text into numerical representations, enabling language models to process and understand natural language data effectively.
+
+14. Question: How did you select and preprocess the dataset for dialogue summarization?
+Answer: I selected a dataset containing conversations between people and preprocessed it using tokenization for further model training.
+
+15. Question: Can you compare the results of one-shot and few-shot inference in terms of summarization performance?
+Answer: Few-shot inference generally yields better results as it provides more examples to the model, helping it learn from correct summaries.
+
+16. Question: How do you strike a balance between generating informative summaries and avoiding over-generation of redundant information?
+Answer: By fine-tuning the model's temperature and sampling values, I aim to achieve a balance between creativity and relevance in generated summaries.
+
+17. Question: What techniques do you use to handle out-of-vocabulary (OOV) words or unseen dialogue elements in the model's input?
+Answer: The tokenization process usually handles OOV words by encoding them as special tokens or using subword tokenization.
+
+18. Question: Explain the concept of context length in language models and its impact on dialogue summarization.
+Answer: Context length refers to the maximum length of the input sequence a model can handle. Longer dialogues may require truncation or special handling to fit within this limit.
+
+19. Question: How do you handle cases where the model generates summaries that are too short or too long for the given dialogue?
+Answer: I experiment with different temperature values and adjust sampling to control the summary length and balance it with the desired level of detail.
+
+20. Question: Describe any challenges you encountered while fine-tuning the model's parameters and how you overcame them.
+Answer: One challenge was finding the right balance between creativity and accuracy in the generated summaries. I iteratively adjusted parameters to achieve a suitable balance.
+
+21. Question: In your project, do you utilize a pre-trained language model or train the model from scratch?
+Answer: I utilize a pre-trained FLAN-T5 language model, as pre-training helps the model learn general language patterns and benefits from transfer learning.
+
+22. Question: How do you measure the effectiveness of prompt engineering in improving the summarization performance?
+Answer: I compare the summarization results achieved through different prompts and instructions to identify which ones yield the best performance.
+
+23. Question: Describe any modifications you made to the FLAN-T5 model's architecture or fine-tuning process for dialogue summarization.
+Answer: For this project, I didn't make any modifications to the model architecture. I primarily focused on prompt engineering and fine-tuning parameters.
+
+24. Question: Can you explain the concept of temperature in the context of the model's output during summarization?
+Answer: Temperature is a parameter that controls the randomness of the model's output. Higher values result in more creative responses, while lower values produce more deterministic responses.
+
+25. Question: What strategies do you use to ensure the generated summaries are coherent and grammatically correct?
+Answer: I ensure coherence and grammatical correctness by training the model on a large and diverse dataset and using prompt engineering to guide its responses.
+
+26. Question: How do you evaluate the performance of the model-generated summaries against the human-labeled baseline summaries?
+Answer: I use evaluation metrics such as ROUGE (Recall-Oriented Understudy for Gisting Evaluation) to compare the generated summaries with the human-labeled baseline.
+
+27. Question: Can you explain the importance of generalizationtemperature and sampling to achieve the desired level of summary creativity and variability?
+Answer: I use a combination of trial and error and performance evaluation to find the optimal temperature and sampling values that produce the desired summarization characteristics.
+
+31. Question: How do you handle cases where the model generates summaries that are grammatically correct but lack coherence or context?
+Answer: I employ techniques such as prompt engineering and context windowing to guide the model in generating coherent and contextually relevant summaries.
+
+32. Question: Can you describe the process of loading and utilizing the FLAN-T5 model in your project?
+Answer: To use the FLAN-T5 model, I first load the pre-trained model and tokenizer, and then I pass the dialogue data through the model to generate summaries.
+
+33. Question: What are some potential limitations of the FLAN-T5 model in dialogue summarization, and how do you work around them?
+Answer: The model's context length limitation may pose challenges with longer dialogues. I address this by truncating or splitting long conversations to fit within the context length.
+
+34. Question: How do you ensure the model generates summaries that capture the most salient information from the dialogues?
+Answer: I experiment with different prompt instructions and use human-labeled summaries as a baseline to encourage the model to focus on the key information.
+
+35. Question: Can you explain the importance of prompt instructions in guiding the model to produce accurate summaries?
+Answer: Prompt instructions provide crucial context for the model and help it understand the summarization task better, leading to more accurate and relevant outputs.
+
+36. Question: Describe the steps you take to fine-tune the FLAN-T5 model for dialogue summarization tasks.
+Answer: I perform prompt engineering, utilize one-shot and few-shot inference, and adjust configuration parameters to fine-tune the model for dialogue summarization.
+
+37. Question: How do you handle cases where the model generates summaries that contain factual inaccuracies?
+Answer: To address factual inaccuracies, I experiment with different prompts and may use additional filtering techniques to ensure the accuracy of the generated summaries.
+
+38. Question: How do you handle situations where the generated summaries include irrelevant or off-topic information?
+Answer: I explore different prompt instructions and fine-tuning techniques to guide the model towards generating more relevant and on-topic summaries.
+
+39. Question: What are some potential ethical considerations in using generative AI for dialogue summarization, and how do you address them?
+Answer: Ethical considerations include potential bias in data and ensuring the model does not generate harmful or misleading information. I address this by carefully selecting and preprocessing the dataset and continuously monitoring the model's outputs.
+
+40. Question: Describe any real-world applications of dialogue summarization using generative AI.
+Answer: Real-world applications include summarizing customer support conversations, generating meeting minutes, and creating concise news summaries from interviews.
+
+41. Question: How do you handle scenarios where the dialogue contains multiple speakers with overlapping conversations?
+Answer: I experiment with different prompt instructions that clearly specify the speakers' identities and use context windowing to capture relevant dialogue segments.
+
+42. Question: How do you determine the optimal size of the training dataset for effective dialogue summarization?
+Answer: The optimal dataset size depends on the complexity of the dialogue tasks. I may start with a moderately-sized dataset and gradually increase it based on model performance.
+
+43. Question: Can you discuss any potential biases that may be present in the training dataset and how they impact the model's outputs?
+Answer: Biases in the training dataset can lead to biased summaries. I address this by diversifying the dataset sources and being mindful of potential biases during data selection.
+
+44. Question: Describe any limitations you encountered with the FLAN-T5 model during your project and how you worked around them.
+Answer: The model's context length limitation can be challenging with longer dialogues. I address this by employing context windowing or splitting longer dialogues into smaller segments.
+
+45. Question: What are the main advantages of using generative AI for dialogue summarization compared to extractive summarization methods?
+Answer: Generative AI allows for more flexibility and creativity in summarization, capturing essential information that might be missed by extractive methods.
+
+46. Question: How do you handle scenarios where the model generates summaries that are grammatically correct but semantically incorrect?
+Answer: I explore different prompt engineering techniques and evaluate the model's outputs to detect and correct such issues.
+
+47. Question: Describe any techniques you use to improve the model's response diversity without compromising coherence.
+Answer: I experiment with different temperature values during generation to find the balance between response diversity and coherence.
+
+48. Question: How do you handle dialogues with multiple sentences, and how does the model generate coherent summaries in such cases?
+Answer: The model is designed to handle multiple sentences. I use context windowing and appropriate prompt instructions to ensure coherence in the generated summaries.
+
+49. Question: Can you explain the concept of transfer learning in the context of using pre-trained language models like FLAN-T5?
+Answer: Transfer learning allows the model to leverage knowledge from pre-training on a large dataset to adapt and perform specific tasks like dialogue summarization.
+
+50. Question: How would you further improve your dialogue summarization model if given more time and resources?
+Answer: I would explore fine-tuning the model on a larger and more diverse dataset and experiment with additional techniques, such as reinforcement learning, to enhance the model's performance.
